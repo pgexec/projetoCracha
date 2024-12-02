@@ -50,6 +50,17 @@
 
 }
 
+.optionsHeader.active {
+    background-color: #00ccdd; 
+    color: white; 
+    font-weight: bold; 
+    -webkit-box-shadow: 1px 2px 81px 8px rgba(0, 204, 221, 0.72);
+    -moz-box-shadow: 1px 2px 81px 8px rgba(0, 204, 221, 0.72);
+    box-shadow: 1px 2px 81px 8px rgba(0, 204, 221, 0.72);
+    border: 2px solid white; 
+}
+
+
 .buttonPerfil{
     display: inline-block;
     border: 1px solid  rgba(255, 255, 255, 0.767);
@@ -63,6 +74,15 @@
     transition: background-color 600ms ease-in-out;
     
     
+}
+
+.buttonPerfil.active{
+    border: white solid 2px;
+    -webkit-box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    -moz-box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    background-color: #00ccdd;
+    color: white; 
 }
 
 .buttonPerfil:hover{

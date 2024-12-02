@@ -1,24 +1,45 @@
-import {Link } from 'react-router-dom'; // Importa o Router do react-router-dom
+import { NavLink } from 'react-router-dom'; // Substitua Link por NavLink
 import '../compHeader/Header.css';
-
 
 function Header() {
   return (
-      <header className='header'>
+      <header className="header">
         <div>
           <img src="" alt="" />
         </div>
 
-        <div className='divOptionsHeader'>
-          <Link className='optionsHeader' to="/">Home</Link>
-          <Link className='optionsHeader' to="/Cracha">Crachá</Link>
+        <div className="divOptionsHeader">
+          
+          <NavLink 
+            className={({ isActive }) => 
+              isActive ? "optionsHeader active" : "optionsHeader"
+            } 
+            to="/"
+          >
+            Home
+          </NavLink>
+          <NavLink 
+            className={({ isActive }) => 
+              isActive ? "optionsHeader active" : "optionsHeader"
+            } 
+            to="/Cracha"
+          >
+            Crachá
+          </NavLink>
         </div>
+
         <div>
-          <Link className='buttonPerfil' to="/Perfil">Perfil</Link>
+          <NavLink 
+            className={({ isActive }) => 
+              isActive ? "buttonPerfil active" : "buttonPerfil"
+            } 
+            to="/Perfil"
+          >
+            Perfil
+          </NavLink>
         </div>
       </header>
   );
-
 }
 
 export default Header;
