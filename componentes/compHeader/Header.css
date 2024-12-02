@@ -25,12 +25,12 @@
     padding: 10px;
     border-radius: 15px;
     background: transparent;
-    backdrop-filter: blur(10px); /* Aplica o desfoque no fundo */
-    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com navegadores WebKit */
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Borda leve para o efeito de vidro */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Sombra para o efeito 3D */
-    padding: 10px; /* Espaço interno */
-    color: white; /* Cor do texto */
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); 
+    padding: 10px;
+    color: white; 
 
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 20px;

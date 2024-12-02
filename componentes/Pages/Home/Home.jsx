@@ -1,6 +1,7 @@
 import '../Home/Home.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIdCardClip,faGear,faClock } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 function Home(){
     return(
@@ -9,6 +10,7 @@ function Home(){
             <h1 className='tituloBemVindo'>Seja Bem-vindo</h1>
             <h2>Estamos aqui para ajudar você e sua empresa</h2>
             <h3 className='subtitulo' >Site especializado a criação de Crachás Virtual</h3>
+            <Link to="/Cracha" className='buttonRendCracha'>Faça seu crachá agora mesmo</Link>
         </div>
         <div className='mainDivBlocos'>
             <div>
