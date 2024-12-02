@@ -1,0 +1,117 @@
+
+
+.div-cracha
+{
+    width: 380px;
+  height: 700px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #212121;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  gap: 20px;
+}
+
+.img-person
+{
+  width: 200px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: solid 5px #ffce00;
+}
+
+.div-img img{  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img{
+    border-radius: 10px;
+    border: 4px solid #ffcc2a
+}
+
+.div-infos
+{
+    width: auto;
+    height: auto;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    
+    margin: 0px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.div-cidade
+{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-cracha
+{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+    height: auto;
+    gap: 50px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.buttonDownload
+{
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 900;
+    border-radius: 15px;
+    background-color: white;
+    color:black;   
+    transition: 600ms ease-in-out;
+    border: 1px solid white;
+}
+
+.buttonDownload:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transform:scale(1.05);
+    border: white solid 2px;
+    -webkit-box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    -moz-box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    background-color: #00ccdd;
+    color: white; 
+}
+
+
+.nameSlot{
+    color: whitev  ;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.InfoCountry{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}

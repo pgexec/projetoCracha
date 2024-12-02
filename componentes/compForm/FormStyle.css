@@ -1,0 +1,123 @@
+
+
+.div-infoForm{
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.divSelectForm{
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.div-form{  /*div pai do formulário e da replica do crachá*/
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.form-container{/*div do formulário dos dados pessoais*/
+    display: flex;
+    width: 50%;
+    height:80vh;
+    gap: 30px;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 15px;
+    border: rgba(255, 255, 255, 0.116) solid 1px;
+    overflow: hidden;
+    backdrop-filter: blur(10px); /* Aplica o desfoque no fundo */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com navegadores WebKit */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borda leve para o efeito de vidro */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Sombra para o efeito 3D */
+    padding: 20px; /* Espaço interno */
+    color: white; /* Cor do texto */
+}
+
+.picture-input{
+    display: none;
+}
+
+.picture
+{
+    width: 311px;
+    height: 413px;
+    background-color: rgb(247, 240, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    border: 2px dashed;
+    cursor: pointer;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.picture-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 311px;
+    height: 413px;
+    object-fit: cover;
+}
+
+.picture-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.picture:hover{
+    color: #777;
+    background-color: #ccc;
+    transition: color 300ms ease-in-out, background  300ms ease-in-out;
+}
+
+.picture:active{
+    color: #ffffff;
+    background-color: aliceblue;
+}
+
+.inputSelect{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 40%;
+    background-color: #fcfbfb;
+}
+
+.buttonVoltar{
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.div-buttons{
+    display: flex;
+    gap: 20px;
+}

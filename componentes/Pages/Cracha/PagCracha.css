@@ -1,0 +1,52 @@
+.div-BlockText{
+    display: flex;
+    width: 60%;
+    height: 20vh;
+    align-items: center;
+    margin: 0px;
+    padding: 40px;
+    gap: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #212121;
+    padding: 20px; /* Espaço interno */
+    color: white; /* Cor do texto */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+}
+
+.section-conteudo{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+
+.gradient-text {
+    background: linear-gradient(90deg, rgba(100,57,255,1) 11%, rgba(79,117,255,1) 68%, rgba(0,204,221,1) 100%); /* Degradê de roxo para azul */
+    -webkit-background-clip: text; /* Clipa o fundo ao texto */
+    -webkit-text-fill-color: transparent; /* Faz o texto ficar transparente */
+    background-clip: text; /* Clipa o fundo ao texto para navegadores compatíveis */
+    font-size: 30px;
+    font-weight: 900;
+    background-color: transparent;   
+}
+
+.divImg{
+    width: 100%;
+    height: auto;
+    background-color: #ff1111;
+}
+
+.tituloPrincipal{
+    font-size: 30px;
+}
+.divSubtitulo{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}

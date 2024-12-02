@@ -1,0 +1,76 @@
+
+.header{
+    padding: 20px;
+    width: 80%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    border: rgba(255, 255, 255, 0.096) solid 1px; 
+      
+}
+
+.divOptionsHeader{
+    display: flex;
+    gap: 20px;
+}
+.optionsHeader{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    transition: 200ms ease-in-out;
+    padding: 10px;
+    border-radius: 15px;
+    background: transparent;
+    backdrop-filter: blur(10px); /* Aplica o desfoque no fundo */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com navegadores WebKit */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borda leve para o efeito de vidro */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Sombra para o efeito 3D */
+    padding: 10px; /* Espaço interno */
+    color: white; /* Cor do texto */
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    
+}
+.optionsHeader:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    color: black;
+    border: 1px solid rgba(255, 255, 255, 0.185);
+    border-radius: 15px;
+    background-color: white;
+    -webkit-box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    -moz-box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    
+
+}
+
+.buttonPerfil{
+    display: inline-block;
+    border: 1px solid  rgba(255, 255, 255, 0.767);
+    border-radius: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition:500ms ease-in-out;
+    background-color: white;
+    transition: background-color 600ms ease-in-out;
+    
+    
+}
+
+.buttonPerfil:hover{
+    transform:scale(1.05);
+    border: white solid 2px;
+    -webkit-box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    -moz-box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    background-color: #00ccdd;
+    color: white; 
+}
