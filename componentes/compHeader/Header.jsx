@@ -33,9 +33,9 @@ function Header() {
             className={({ isActive }) => 
               isActive ? "buttonPerfil active" : "buttonPerfil"
             } 
-            to="/Perfil"
+            to="/Funcionarios"
           >
-            Perfil
+            Funcionarios
           </NavLink>
         </div>
       </header>

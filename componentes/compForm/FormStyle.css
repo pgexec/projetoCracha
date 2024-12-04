@@ -121,3 +121,26 @@
     display: flex;
     gap: 20px;
 }
+
+.buttonSubmit{
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 900;
+    border-radius: 15px;
+    background-color: white;
+    color:black;   
+    transition: 600ms ease-in-out;
+    border: 1px solid white;
+}
+
+.buttonSubmit:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transform:scale(1.05);
+    border: white solid 2px;
+    -webkit-box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    -moz-box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    box-shadow: 1px 2px 81px 8px rgba(0,204,221,0.52);
+    background-color: #00ccdd;
+    color: white; 
+}
